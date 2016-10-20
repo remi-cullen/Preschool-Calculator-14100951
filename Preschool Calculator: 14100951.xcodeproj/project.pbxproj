@@ -194,6 +194,11 @@
 					9249DD791DB8EBA1002EC6FD = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 788URXD67R;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					9249DD8D1DB8EBA2002EC6FD = {
 						CreatedOnToolsVersion = 7.2;
