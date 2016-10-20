@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9249DD7E1DB8EBA1002EC6FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DD7D1DB8EBA1002EC6FD /* AppDelegate.swift */; };
+		9249DD801DB8EBA1002EC6FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DD7F1DB8EBA1002EC6FD /* ViewController.swift */; };
+		9249DD831DB8EBA1002EC6FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9249DD811DB8EBA1002EC6FD /* Main.storyboard */; };
+		9249DD851DB8EBA2002EC6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9249DD841DB8EBA2002EC6FD /* Assets.xcassets */; };
+		9249DD881DB8EBA2002EC6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9249DD861DB8EBA2002EC6FD /* LaunchScreen.storyboard */; };
+		9249DD931DB8EBA2002EC6FD /* Preschool_Calculator__14100951Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DD921DB8EBA2002EC6FD /* Preschool_Calculator__14100951Tests.swift */; };
+		9249DD9E1DB8EBA2002EC6FD /* Preschool_Calculator__14100951UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DD9D1DB8EBA2002EC6FD /* Preschool_Calculator__14100951UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9249DD8F1DB8EBA2002EC6FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9249DD721DB8EBA0002EC6FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9249DD791DB8EBA1002EC6FD;
+			remoteInfo = "Preschool Calculator: 14100951";
+		};
+		9249DD9A1DB8EBA2002EC6FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9249DD721DB8EBA0002EC6FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9249DD791DB8EBA1002EC6FD;
+			remoteInfo = "Preschool Calculator: 14100951";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9249DD7A1DB8EBA1002EC6FD /* Preschool Calculator: 14100951.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preschool Calculator: 14100951.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9249DD7D1DB8EBA1002EC6FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9249DD7F1DB8EBA1002EC6FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9249DD821DB8EBA1002EC6FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9249DD841DB8EBA2002EC6FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9249DD871DB8EBA2002EC6FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9249DD891DB8EBA2002EC6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9249DD8E1DB8EBA2002EC6FD /* Preschool Calculator: 14100951Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Preschool Calculator: 14100951Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9249DD921DB8EBA2002EC6FD /* Preschool_Calculator__14100951Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preschool_Calculator__14100951Tests.swift; sourceTree = "<group>"; };
+		9249DD941DB8EBA2002EC6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9249DD991DB8EBA2002EC6FD /* Preschool Calculator: 14100951UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Preschool Calculator: 14100951UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9249DD9D1DB8EBA2002EC6FD /* Preschool_Calculator__14100951UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preschool_Calculator__14100951UITests.swift; sourceTree = "<group>"; };
+		9249DD9F1DB8EBA2002EC6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9249DD771DB8EBA1002EC6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9249DD8B1DB8EBA2002EC6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9249DD961DB8EBA2002EC6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9249DD711DB8EBA0002EC6FD = {
+			isa = PBXGroup;
+			children = (
+				9249DD7C1DB8EBA1002EC6FD /* Preschool Calculator: 14100951 */,
+				9249DD911DB8EBA2002EC6FD /* Preschool Calculator: 14100951Tests */,
+				9249DD9C1DB8EBA2002EC6FD /* Preschool Calculator: 14100951UITests */,
+				9249DD7B1DB8EBA1002EC6FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9249DD7B1DB8EBA1002EC6FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9249DD7A1DB8EBA1002EC6FD /* Preschool Calculator: 14100951.app */,
+				9249DD8E1DB8EBA2002EC6FD /* Preschool Calculator: 14100951Tests.xctest */,
+				9249DD991DB8EBA2002EC6FD /* Preschool Calculator: 14100951UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9249DD7C1DB8EBA1002EC6FD /* Preschool Calculator: 14100951 */ = {
+			isa = PBXGroup;
+			children = (
+				9249DD7D1DB8EBA1002EC6FD /* AppDelegate.swift */,
+				9249DD7F1DB8EBA1002EC6FD /* ViewController.swift */,
+				9249DD811DB8EBA1002EC6FD /* Main.storyboard */,
+				9249DD841DB8EBA2002EC6FD /* Assets.xcassets */,
+				9249DD861DB8EBA2002EC6FD /* LaunchScreen.storyboard */,
+				9249DD891DB8EBA2002EC6FD /* Info.plist */,
+			);
+			path = "Preschool Calculator: 14100951";
+			sourceTree = "<group>";
+		};
+		9249DD911DB8EBA2002EC6FD /* Preschool Calculator: 14100951Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9249DD921DB8EBA2002EC6FD /* Preschool_Calculator__14100951Tests.swift */,
+				9249DD941DB8EBA2002EC6FD /* Info.plist */,
+			);
+			path = "Preschool Calculator: 14100951Tests";
+			sourceTree = "<group>";
+		};
+		9249DD9C1DB8EBA2002EC6FD /* Preschool Calculator: 14100951UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9249DD9D1DB8EBA2002EC6FD /* Preschool_Calculator__14100951UITests.swift */,
+				9249DD9F1DB8EBA2002EC6FD /* Info.plist */,
+			);
+			path = "Preschool Calculator: 14100951UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9249DD791DB8EBA1002EC6FD /* Preschool Calculator: 14100951 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9249DDA21DB8EBA2002EC6FD /* Build configuration list for PBXNativeTarget "Preschool Calculator: 14100951" */;
+			buildPhases = (
+				9249DD761DB8EBA1002EC6FD /* Sources */,
+				9249DD771DB8EBA1002EC6FD /* Frameworks */,
+				9249DD781DB8EBA1002EC6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Preschool Calculator: 14100951";
+			productName = "Preschool Calculator: 14100951";
+			productReference = 9249DD7A1DB8EBA1002EC6FD /* Preschool Calculator: 14100951.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9249DD8D1DB8EBA2002EC6FD /* Preschool Calculator: 14100951Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9249DDA51DB8EBA2002EC6FD /* Build configuration list for PBXNativeTarget "Preschool Calculator: 14100951Tests" */;
+			buildPhases = (
+				9249DD8A1DB8EBA2002EC6FD /* Sources */,
+				9249DD8B1DB8EBA2002EC6FD /* Frameworks */,
+				9249DD8C1DB8EBA2002EC6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9249DD901DB8EBA2002EC6FD /* PBXTargetDependency */,
+			);
+			name = "Preschool Calculator: 14100951Tests";
+			productName = "Preschool Calculator: 14100951Tests";
+			productReference = 9249DD8E1DB8EBA2002EC6FD /* Preschool Calculator: 14100951Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9249DD981DB8EBA2002EC6FD /* Preschool Calculator: 14100951UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9249DDA81DB8EBA2002EC6FD /* Build configuration list for PBXNativeTarget "Preschool Calculator: 14100951UITests" */;
+			buildPhases = (
+				9249DD951DB8EBA2002EC6FD /* Sources */,
+				9249DD961DB8EBA2002EC6FD /* Frameworks */,
+				9249DD971DB8EBA2002EC6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9249DD9B1DB8EBA2002EC6FD /* PBXTargetDependency */,
+			);
+			name = "Preschool Calculator: 14100951UITests";
+			productName = "Preschool Calculator: 14100951UITests";
+			productReference = 9249DD991DB8EBA2002EC6FD /* Preschool Calculator: 14100951UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9249DD721DB8EBA0002EC6FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Remi Cullen";
+				TargetAttributes = {
+					9249DD791DB8EBA1002EC6FD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 788URXD67R;
+					};
+					9249DD8D1DB8EBA2002EC6FD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 788URXD67R;
+						TestTargetID = 9249DD791DB8EBA1002EC6FD;
+					};
+					9249DD981DB8EBA2002EC6FD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 788URXD67R;
+						TestTargetID = 9249DD791DB8EBA1002EC6FD;
+					};
+				};
+			};
+			buildConfigurationList = 9249DD751DB8EBA0002EC6FD /* Build configuration list for PBXProject "Preschool Calculator: 14100951" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9249DD711DB8EBA0002EC6FD;
+			productRefGroup = 9249DD7B1DB8EBA1002EC6FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9249DD791DB8EBA1002EC6FD /* Preschool Calculator: 14100951 */,
+				9249DD8D1DB8EBA2002EC6FD /* Preschool Calculator: 14100951Tests */,
+				9249DD981DB8EBA2002EC6FD /* Preschool Calculator: 14100951UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9249DD781DB8EBA1002EC6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9249DD881DB8EBA2002EC6FD /* LaunchScreen.storyboard in Resources */,
+				9249DD851DB8EBA2002EC6FD /* Assets.xcassets in Resources */,
+				9249DD831DB8EBA1002EC6FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9249DD8C1DB8EBA2002EC6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9249DD971DB8EBA2002EC6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9249DD761DB8EBA1002EC6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9249DD801DB8EBA1002EC6FD /* ViewController.swift in Sources */,
+				9249DD7E1DB8EBA1002EC6FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9249DD8A1DB8EBA2002EC6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9249DD931DB8EBA2002EC6FD /* Preschool_Calculator__14100951Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9249DD951DB8EBA2002EC6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9249DD9E1DB8EBA2002EC6FD /* Preschool_Calculator__14100951UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9249DD901DB8EBA2002EC6FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9249DD791DB8EBA1002EC6FD /* Preschool Calculator: 14100951 */;
+			targetProxy = 9249DD8F1DB8EBA2002EC6FD /* PBXContainerItemProxy */;
+		};
+		9249DD9B1DB8EBA2002EC6FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9249DD791DB8EBA1002EC6FD /* Preschool Calculator: 14100951 */;
+			targetProxy = 9249DD9A1DB8EBA2002EC6FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9249DD811DB8EBA1002EC6FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9249DD821DB8EBA1002EC6FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9249DD861DB8EBA2002EC6FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9249DD871DB8EBA2002EC6FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9249DDA01DB8EBA2002EC6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9249DDA11DB8EBA2002EC6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9249DDA31DB8EBA2002EC6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Preschool Calculator: 14100951/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9249DDA41DB8EBA2002EC6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Preschool Calculator: 14100951/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9249DDA61DB8EBA2002EC6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Preschool Calculator: 14100951Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Preschool Calculator: 14100951.app/Preschool Calculator: 14100951";
+			};
+			name = Debug;
+		};
+		9249DDA71DB8EBA2002EC6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Preschool Calculator: 14100951Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Preschool Calculator: 14100951.app/Preschool Calculator: 14100951";
+			};
+			name = Release;
+		};
+		9249DDA91DB8EBA2002EC6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Preschool Calculator: 14100951UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Preschool Calculator: 14100951";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9249DDAA1DB8EBA2002EC6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Preschool Calculator: 14100951UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Preschool Calculator: 14100951";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9249DD751DB8EBA0002EC6FD /* Build configuration list for PBXProject "Preschool Calculator: 14100951" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9249DDA01DB8EBA2002EC6FD /* Debug */,
+				9249DDA11DB8EBA2002EC6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9249DDA21DB8EBA2002EC6FD /* Build configuration list for PBXNativeTarget "Preschool Calculator: 14100951" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9249DDA31DB8EBA2002EC6FD /* Debug */,
+				9249DDA41DB8EBA2002EC6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9249DDA51DB8EBA2002EC6FD /* Build configuration list for PBXNativeTarget "Preschool Calculator: 14100951Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9249DDA61DB8EBA2002EC6FD /* Debug */,
+				9249DDA71DB8EBA2002EC6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9249DDA81DB8EBA2002EC6FD /* Build configuration list for PBXNativeTarget "Preschool Calculator: 14100951UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9249DDA91DB8EBA2002EC6FD /* Debug */,
+				9249DDAA1DB8EBA2002EC6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9249DD721DB8EBA0002EC6FD /* Project object */;
+}
