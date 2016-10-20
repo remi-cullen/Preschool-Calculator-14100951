@@ -14,6 +14,9 @@
 		9249DD881DB8EBA2002EC6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9249DD861DB8EBA2002EC6FD /* LaunchScreen.storyboard */; };
 		9249DD931DB8EBA2002EC6FD /* Preschool_Calculator__14100951Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DD921DB8EBA2002EC6FD /* Preschool_Calculator__14100951Tests.swift */; };
 		9249DD9E1DB8EBA2002EC6FD /* Preschool_Calculator__14100951UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DD9D1DB8EBA2002EC6FD /* Preschool_Calculator__14100951UITests.swift */; };
+		9249DDAC1DB97312002EC6FD /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DDAB1DB97312002EC6FD /* mainViewController.swift */; };
+		9249DDB11DB97892002EC6FD /* calculateHomepageImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9249DDAF1DB97892002EC6FD /* calculateHomepageImage.png */; };
+		9249DDB21DB97892002EC6FD /* all_fall_down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9249DDB01DB97892002EC6FD /* all_fall_down.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9249DD991DB8EBA2002EC6FD /* Preschool Calculator: 14100951UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Preschool Calculator: 14100951UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9249DD9D1DB8EBA2002EC6FD /* Preschool_Calculator__14100951UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preschool_Calculator__14100951UITests.swift; sourceTree = "<group>"; };
 		9249DD9F1DB8EBA2002EC6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9249DDAB1DB97312002EC6FD /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		9249DDAF1DB97892002EC6FD /* calculateHomepageImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculateHomepageImage.png; sourceTree = "<group>"; };
+		9249DDB01DB97892002EC6FD /* all_fall_down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = all_fall_down.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,11 @@
 				9249DD7D1DB8EBA1002EC6FD /* AppDelegate.swift */,
 				9249DD7F1DB8EBA1002EC6FD /* ViewController.swift */,
 				9249DD811DB8EBA1002EC6FD /* Main.storyboard */,
+				9249DDAB1DB97312002EC6FD /* mainViewController.swift */,
 				9249DD841DB8EBA2002EC6FD /* Assets.xcassets */,
 				9249DD861DB8EBA2002EC6FD /* LaunchScreen.storyboard */,
 				9249DD891DB8EBA2002EC6FD /* Info.plist */,
+				9249DDAE1DB9784E002EC6FD /* Images & Audio */,
 			);
 			path = "Preschool Calculator: 14100951";
 			sourceTree = "<group>";
@@ -123,6 +131,15 @@
 				9249DD9F1DB8EBA2002EC6FD /* Info.plist */,
 			);
 			path = "Preschool Calculator: 14100951UITests";
+			sourceTree = "<group>";
+		};
+		9249DDAE1DB9784E002EC6FD /* Images & Audio */ = {
+			isa = PBXGroup;
+			children = (
+				9249DDAF1DB97892002EC6FD /* calculateHomepageImage.png */,
+				9249DDB01DB97892002EC6FD /* all_fall_down.mp3 */,
+			);
+			name = "Images & Audio";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9249DDB11DB97892002EC6FD /* calculateHomepageImage.png in Resources */,
 				9249DD881DB8EBA2002EC6FD /* LaunchScreen.storyboard in Resources */,
 				9249DD851DB8EBA2002EC6FD /* Assets.xcassets in Resources */,
 				9249DD831DB8EBA1002EC6FD /* Main.storyboard in Resources */,
+				9249DDB21DB97892002EC6FD /* all_fall_down.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +285,7 @@
 			files = (
 				9249DD801DB8EBA1002EC6FD /* ViewController.swift in Sources */,
 				9249DD7E1DB8EBA1002EC6FD /* AppDelegate.swift in Sources */,
+				9249DDAC1DB97312002EC6FD /* mainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
