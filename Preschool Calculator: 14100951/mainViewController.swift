@@ -12,12 +12,15 @@ import Foundation
 
 class mainViewController : ViewController{
     
-    
-    
+    //labels for displaying text
+    @IBOutlet weak var firstNumber: UILabel!
+    @IBOutlet weak var secondNumber: UILabel!
+    @IBOutlet weak var answerFromButton: UILabel!
+    @IBOutlet weak var answerFromCode: UILabel!
     
     
     
     override func viewDidLoad() {
-        //addition of 
+        //addition of
     }
 }
