@@ -33,6 +33,8 @@
 		9249DDD11DBE1F51002EC6FD /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = 9249DDC11DBE1F51002EC6FD /* play_again.png */; };
 		9249DDD21DBE1F51002EC6FD /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 9249DDC21DBE1F51002EC6FD /* star_kids.png */; };
 		9249DDD31DBE1F51002EC6FD /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 9249DDC31DBE1F51002EC6FD /* thumbs_up.png */; };
+		9249DDD51DBE5B1D002EC6FD /* imagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DDD41DBE5B1D002EC6FD /* imagesViewController.swift */; };
+		9249DE151DC396DA002EC6FD /* DraggableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DE141DC396D9002EC6FD /* DraggableImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		9249DDC11DBE1F51002EC6FD /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_again.png; path = images/play_again.png; sourceTree = "<group>"; };
 		9249DDC21DBE1F51002EC6FD /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_kids.png; path = images/star_kids.png; sourceTree = "<group>"; };
 		9249DDC31DBE1F51002EC6FD /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbs_up.png; path = images/thumbs_up.png; sourceTree = "<group>"; };
+		9249DDD41DBE5B1D002EC6FD /* imagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imagesViewController.swift; sourceTree = "<group>"; };
+		9249DE141DC396D9002EC6FD /* DraggableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 				9249DD7D1DB8EBA1002EC6FD /* AppDelegate.swift */,
 				9249DD7F1DB8EBA1002EC6FD /* ViewController.swift */,
 				9249DD811DB8EBA1002EC6FD /* Main.storyboard */,
+				9249DDD41DBE5B1D002EC6FD /* imagesViewController.swift */,
+				9249DE141DC396D9002EC6FD /* DraggableImage.swift */,
 				9249DDAB1DB97312002EC6FD /* mainViewController.swift */,
 				9249DD841DB8EBA2002EC6FD /* Assets.xcassets */,
 				9249DD861DB8EBA2002EC6FD /* LaunchScreen.storyboard */,
@@ -349,6 +355,8 @@
 			files = (
 				9249DD801DB8EBA1002EC6FD /* ViewController.swift in Sources */,
 				9249DD7E1DB8EBA1002EC6FD /* AppDelegate.swift in Sources */,
+				9249DDD51DBE5B1D002EC6FD /* imagesViewController.swift in Sources */,
+				9249DE151DC396DA002EC6FD /* DraggableImage.swift in Sources */,
 				9249DDAC1DB97312002EC6FD /* mainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

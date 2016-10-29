@@ -55,44 +55,30 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cTY-ja-wg1">
-                                <rect key="frame" x="352" y="11" width="11" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Trs-8g-NZc">
-                                <rect key="frame" x="386" y="11" width="57" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="442" y="64" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rIL-on-Eqk">
-                                <rect key="frame" x="215" y="11" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="245" y="42" width="79" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2ndNum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jge-dV-FRI">
-                                <rect key="frame" x="265" y="11" width="66" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2ndNum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jge-dV-FRI">
+                                <rect key="frame" x="324" y="33" width="101" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1stNum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sM4-u7-dZA">
-                                <rect key="frame" x="149" y="11" width="58" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coded Answer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wfl-w2-hF5">
-                                <rect key="frame" x="358" y="46" width="112" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1stNum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sM4-u7-dZA">
+                                <rect key="frame" x="137" y="33" width="100" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -176,6 +162,82 @@
                                     <action selector="inputNumButton:" destination="Qyu-ce-n7T" eventType="touchUpInside" id="ZbZ-gQ-DyE"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coded Answer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wfl-w2-hF5">
+                                <rect key="frame" x="176" y="5" width="112" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Trs-8g-NZc">
+                                <rect key="frame" x="461" y="43" width="89" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="w9x-lu-Ih5">
+                                <rect key="frame" x="131" y="132" width="437" height="188"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plate_white.png" id="Fo9-xT-qYe">
+                                        <rect key="frame" x="134" y="117" width="169" height="63"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.968281736" green="1" blue="0.89136246460000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="CWS-2q-WFq" customClass="DraggableImage" customModule="Preschool_Calculator__14100951" customModuleProvider="target">
+                                        <rect key="frame" x="346" y="9" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96828173597471845" green="1" blue="0.89136246457721413" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="N4o-7S-DDH" customClass="DraggableImage" customModule="Preschool_Calculator__14100951" customModuleProvider="target">
+                                        <rect key="frame" x="283" y="9" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96828173597471845" green="1" blue="0.89136246457721413" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="eLz-wU-KpM" customClass="DraggableImage" customModule="Preschool_Calculator__14100951" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96828173597471845" green="1" blue="0.89136246457721413" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="sPs-NL-nGb" customClass="DraggableImage" customModule="Preschool_Calculator__14100951" customModuleProvider="target">
+                                        <rect key="frame" x="61" y="8" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96828173597471845" green="1" blue="0.89136246457721413" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="sFu-vV-htf" customClass="DraggableImage" customModule="Preschool_Calculator__14100951" customModuleProvider="target">
+                                        <rect key="frame" x="114" y="8" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96828173597471845" green="1" blue="0.89136246457721413" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="pgn-xM-juL" customClass="DraggableImage" customModule="Preschool_Calculator__14100951" customModuleProvider="target">
+                                        <rect key="frame" x="230" y="9" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96828173597471845" green="1" blue="0.89136246457721413" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="oIW-pO-eqO" customClass="DraggableImage" customModule="Preschool_Calculator__14100951" customModuleProvider="target">
+                                        <rect key="frame" x="399" y="8" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96828173597471845" green="1" blue="0.89136246457721413" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="vap-L2-Imk" customClass="DraggableImage" customModule="Preschool_Calculator__14100951" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="61" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96828173597471845" green="1" blue="0.89136246457721413" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="vnz-dW-SzH" customClass="DraggableImage" customModule="Preschool_Calculator__14100951" customModuleProvider="target">
+                                        <rect key="frame" x="61" y="61" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96828173597471845" green="1" blue="0.89136246457721413" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="nnQ-ar-rdF" customClass="DraggableImage" customModule="Preschool_Calculator__14100951" customModuleProvider="target">
+                                        <rect key="frame" x="172" y="8" width="45" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96828173597471845" green="1" blue="0.89136246457721413" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.77695126711369644" blue="0.82810669515879221" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -189,10 +251,91 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mrz-EF-gis" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="729" y="198"/>
+            <point key="canvasLocation" x="755" y="208"/>
+        </scene>
+        <!--Images View Controller-->
+        <scene sceneID="1WA-w7-wQj">
+            <objects>
+                <viewController id="VgM-Bd-fYa" customClass="imagesViewController" customModule="Preschool_Calculator__14100951" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="isZ-lB-dJF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="202"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plate_white.png" id="GLu-LG-zEM">
+                                <rect key="frame" x="102" y="116" width="235" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="eCD-4C-n2b" customClass="DraggableImage" customModule="Preschool_Calculator__14100951" customModuleProvider="target">
+                                <rect key="frame" x="10" y="10" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="3Gv-d4-NUV">
+                                <rect key="frame" x="67" y="10" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="PEl-8Q-hn0">
+                                <rect key="frame" x="186" y="10" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="oyT-tM-BXt">
+                                <rect key="frame" x="245" y="10" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="skY-YH-B4F">
+                                <rect key="frame" x="126" y="65" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="vtH-uM-Xzy">
+                                <rect key="frame" x="75" y="65" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="ETL-Rf-Hhw">
+                                <rect key="frame" x="303" y="10" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="j53-3M-xmq">
+                                <rect key="frame" x="365" y="10" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="8TL-FK-1Qa">
+                                <rect key="frame" x="10" y="65" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" id="vlZ-rr-7oD">
+                                <rect key="frame" x="112" y="-139" width="320" height="202"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="VgM-Bd-fYa" kind="embed" id="nE5-TP-1WF"/>
+                                </connections>
+                            </containerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" id="4Aw-8y-1Hd">
+                                <rect key="frame" x="102" y="10" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="appleEight" destination="8TL-FK-1Qa" id="s1Q-6s-pS6"/>
+                        <outlet property="appleFive" destination="oyT-tM-BXt" id="bWs-4S-wAf"/>
+                        <outlet property="appleFour" destination="PEl-8Q-hn0" id="dzd-bB-G2V"/>
+                        <outlet property="appleNine" destination="vtH-uM-Xzy" id="8JM-pe-Drf"/>
+                        <outlet property="appleOne" destination="eCD-4C-n2b" id="IO6-ut-t8S"/>
+                        <outlet property="appleSeven" destination="j53-3M-xmq" id="apB-zh-NgX"/>
+                        <outlet property="appleSix" destination="ETL-Rf-Hhw" id="CVv-h6-jgm"/>
+                        <outlet property="appleTen" destination="skY-YH-B4F" id="lHU-EN-WtY"/>
+                        <outlet property="appleThree" destination="4Aw-8y-1Hd" id="mOn-yq-5ZO"/>
+                        <outlet property="appleTwo" destination="3Gv-d4-NUV" id="g9d-33-Jj1"/>
+                        <outlet property="plateImage" destination="GLu-LG-zEM" id="9iN-fI-bXw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="niL-ex-dva" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="694" y="612"/>
         </scene>
     </scenes>
     <resources>
+        <image name="apple.png" width="256" height="256"/>
         <image name="number0.png" width="256" height="256"/>
         <image name="number1.png" width="256" height="256"/>
         <image name="number2.png" width="256" height="256"/>
@@ -203,5 +346,6 @@
         <image name="number7.png" width="256" height="256"/>
         <image name="number8.png" width="256" height="256"/>
         <image name="number9.png" width="256" height="256"/>
+        <image name="plate_white.png" width="1600" height="1200"/>
     </resources>
 </document>
