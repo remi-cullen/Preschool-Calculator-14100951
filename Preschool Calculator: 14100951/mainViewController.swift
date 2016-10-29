@@ -40,11 +40,26 @@ class mainViewController : UIViewController
         answerFromCode.text = "\(codedResult)";
     }
     
+    func checkAnswers()
+    {
+        //this method will compare the coded answer to the number input
+        if (answerFromButton.text == answerFromCode.text ){
+            let storyboard: UIStoryboard = UIStoryboard(name:"Main", bundle: nil)
+            
+            let wellDoneViewController = storyboard.instantiateViewControllerWithIdentifier("wellDoneView")
+            self.presentViewController(wellDoneViewController, animated: true, completion: nil)
+            
+            
+        }
+    }
+    
     @IBAction func inputNumButton(sender: UIButton)
     {
-     buttonInput = Float(sender.titleLabel!.text!)!
-     answerFromButton.text = ("\(Int(buttonInput))");
+        buttonInput = Float(sender.titleLabel!.text!)!;
+        answerFromButton.text = ("\(Int(buttonInput))");
+        checkAnswers();
     }
+    
     
     
     
