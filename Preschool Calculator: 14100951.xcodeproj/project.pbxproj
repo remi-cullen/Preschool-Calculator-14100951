@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		924959851DD7AEFB00851A52 /* RotatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924959841DD7AEFB00851A52 /* RotatedImage.swift */; };
 		9249DD7E1DB8EBA1002EC6FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DD7D1DB8EBA1002EC6FD /* AppDelegate.swift */; };
 		9249DD801DB8EBA1002EC6FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DD7F1DB8EBA1002EC6FD /* ViewController.swift */; };
 		9249DD831DB8EBA1002EC6FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9249DD811DB8EBA1002EC6FD /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		924959841DD7AEFB00851A52 /* RotatedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedImage.swift; sourceTree = "<group>"; };
 		9249DD7A1DB8EBA1002EC6FD /* Preschool Calculator: 14100951.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preschool Calculator: 14100951.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9249DD7D1DB8EBA1002EC6FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9249DD7F1DB8EBA1002EC6FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				9249DD7D1DB8EBA1002EC6FD /* AppDelegate.swift */,
 				9249DD7F1DB8EBA1002EC6FD /* ViewController.swift */,
 				9249DD811DB8EBA1002EC6FD /* Main.storyboard */,
+				924959841DD7AEFB00851A52 /* RotatedImage.swift */,
 				9249DE141DC396D9002EC6FD /* DraggableImage.swift */,
 				9249DDAB1DB97312002EC6FD /* mainViewController.swift */,
 				9249DE3B1DC4D777002EC6FD /* wellDoneViewControl.swift */,
@@ -262,12 +265,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Remi Cullen";
 				TargetAttributes = {
 					9249DD791DB8EBA1002EC6FD = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 788URXD67R;
+						LastSwiftMigration = 0810;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -277,11 +281,13 @@
 					9249DD8D1DB8EBA2002EC6FD = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 788URXD67R;
+						LastSwiftMigration = 0810;
 						TestTargetID = 9249DD791DB8EBA1002EC6FD;
 					};
 					9249DD981DB8EBA2002EC6FD = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 788URXD67R;
+						LastSwiftMigration = 0810;
 						TestTargetID = 9249DD791DB8EBA1002EC6FD;
 					};
 				};
@@ -362,6 +368,7 @@
 				9249DE151DC396DA002EC6FD /* DraggableImage.swift in Sources */,
 				9249DE3C1DC4D777002EC6FD /* wellDoneViewControl.swift in Sources */,
 				9249DDAC1DB97312002EC6FD /* mainViewController.swift in Sources */,
+				924959851DD7AEFB00851A52 /* RotatedImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,8 +436,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -473,8 +482,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -493,6 +504,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -505,6 +517,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -516,6 +529,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -527,6 +541,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Preschool Calculator: 14100951.app/Preschool Calculator: 14100951";
 			};
 			name = Debug;
@@ -539,6 +554,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Preschool Calculator: 14100951.app/Preschool Calculator: 14100951";
 			};
 			name = Release;
@@ -550,6 +566,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Preschool Calculator: 14100951";
 				USES_XCTRUNNER = YES;
 			};
@@ -562,6 +579,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hertfordshire-University.Preschool-Calculator--14100951UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Preschool Calculator: 14100951";
 				USES_XCTRUNNER = YES;
 			};
@@ -586,6 +604,7 @@
 				9249DDA41DB8EBA2002EC6FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9249DDA51DB8EBA2002EC6FD /* Build configuration list for PBXNativeTarget "Preschool Calculator: 14100951Tests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +613,7 @@
 				9249DDA71DB8EBA2002EC6FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9249DDA81DB8EBA2002EC6FD /* Build configuration list for PBXNativeTarget "Preschool Calculator: 14100951UITests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +622,7 @@
 				9249DDAA1DB8EBA2002EC6FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
