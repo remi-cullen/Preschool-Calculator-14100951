@@ -11,6 +11,16 @@ import UIKit
 class wellDoneViewControl: UIViewController {
     
     
+    @IBOutlet weak var resultNumFirst: UILabel!
+    
+    @IBOutlet weak var resultNumSecond: UILabel!
+    
+    @IBOutlet weak var resultCodedResult: UILabel!
+
+    
+    
+    
+    
     @IBOutlet weak var starImage: UIImageView!
     
     @IBOutlet weak var starImage2: UIImageView!
@@ -19,6 +29,12 @@ class wellDoneViewControl: UIViewController {
     var timer: Timer!
     var shouldStopRotating: Bool = false;
     
+    func crossOverNumbers()
+    {
+        //this method takes the global variables of the viewcontoller before and adds it here and assigns the value to the label
+        
+        
+    }
     
     func refresh()
     {
@@ -29,7 +45,8 @@ class wellDoneViewControl: UIViewController {
         }
     }
     
-    func animationDidStop(animation: CAAnimation, finished flag: Bool) {
+    func animationDidStop(animation: CAAnimation, finished: Bool)
+    {
         if self.shouldStopRotating == false {
             self.starImage.rotate360(completionDelegate: self)
             self.starImage2.rotate360(completionDelegate: self)
@@ -43,40 +60,15 @@ class wellDoneViewControl: UIViewController {
         self.shouldStopRotating = false
     }
     
-    @IBAction func rotateButn(_ sender: UIButton)
-    {
-        
-            self.starImage.rotate360();
-            self.starImage2.rotate360();
-        
-           }
-    
-//    func rotateImage(){
-//        print("rotate image");
-//        print("b");
-//        UIView.animate(withDuration: 1.2, delay: 0.0, options: .curveEaseIn, animations: ({
-//            self.starImage.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI_2))
-//        }), completion:{ finished in
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "crossOver"{
 //            
-//            if finished {
-//                
-//                self.rotateImage();
-//                print("finished rotation");
-//            }
-//            
-//        })
-//    }
-//
-//    
-//    private func rotateView(targetView: UIImageView, duration: Double = 1.2) {
-//        UIView.animate(withDuration: duration, delay: 0.0, options: .curveLinear, animations: {
-//            targetView.transform = CGAffineTransform(rotationAngle: CGFloat(180))
-//        }) { finished in
-//            
-//            self.rotateView(targetView: targetView, duration: duration)
+//            let controller = segue.destination as! mainViewController
+//            resultNumFirst.text = controller.firstNumber.text
+//            resultNumSecond.text = controller.secondNumber.text
+//            resultCodedResult.text = controller.answerFromCode.text
 //        }
 //    }
-//    
 
     override func viewDidLoad() {
         super.viewDidLoad();

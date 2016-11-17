@@ -42,13 +42,7 @@ class mainViewController : UIViewController
         answerFromCode.text = "\(codedResult)";
     }
     
-    
-    func tryAgain()
-    {
-        
-        
-    }
-    
+
     
     func checkAnswers()
     {
@@ -58,21 +52,20 @@ class mainViewController : UIViewController
             
             let wellDoneViewController = storyboard.instantiateViewController(withIdentifier: "wellDoneView")
             self.present(wellDoneViewController, animated: true, completion: nil)
-            
-            
+            //self.shouldPerformSegue(withIdentifier: "crossOver", sender: self)
+            //self.performSegue(withIdentifier: "crossOver", sender: self)
         }
         else
         {
-            UIView.animate(withDuration: 3.0, delay: 0.0, options: .curveEaseIn, animations: ({
+            UIView.animate(withDuration: 4.0, delay: 0.0, options: .curveEaseInOut, animations: ({
                 self.tryAgainLabel.alpha = 1;
-                self.tryAgainLabel.isHidden = false;
                 self.tryAgainLabel.alpha = 0;
-                self.tryAgainLabel.isHidden = true;
                 
-            }), completion: {finished in if(finished){ self.checkAnswers();}})
+            }), completion: nil)//{finished in if(finished){ self.checkAnswers();}})
             
         }
     }
+
     
     @IBAction func inputNumButton(_ sender: UIButton)
     {
@@ -89,5 +82,10 @@ class mainViewController : UIViewController
         //addition of
         randomiseNumber();
         calculateRandomNumbers();
+        var globalFirst = firstNumber.text;//testing globals to see if they work
+        var globalSecond = secondNumber.text;
+        var GlobalAnswer = answerFromCode.text;
+        self.tryAgainLabel.alpha = 0
     }
+    
 }
