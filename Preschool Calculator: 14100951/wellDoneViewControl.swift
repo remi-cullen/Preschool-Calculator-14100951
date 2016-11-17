@@ -10,16 +10,12 @@ import UIKit
 
 class wellDoneViewControl: UIViewController {
     
-    
+    //Variables
     @IBOutlet weak var resultNumFirst: UILabel!
     
     @IBOutlet weak var resultNumSecond: UILabel!
     
     @IBOutlet weak var resultCodedResult: UILabel!
-
-    
-    
-    
     
     @IBOutlet weak var starImage: UIImageView!
     
@@ -28,13 +24,13 @@ class wellDoneViewControl: UIViewController {
     var isThisRotating: Bool  = false;
     var timer: Timer!
     var shouldStopRotating: Bool = false;
-    
-    func crossOverNumbers()
+
+    @IBAction func exitApplication(_ sender: Any)
     {
-        //this method takes the global variables of the viewcontoller before and adds it here and assigns the value to the label
-        
+        UIControl().sendAction(#selector(URLSessionTask.suspend), to: UIApplication.shared, for: nil)
         
     }
+    
     
     func refresh()
     {
@@ -59,20 +55,13 @@ class wellDoneViewControl: UIViewController {
         self.isThisRotating = false
         self.shouldStopRotating = false
     }
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "crossOver"{
-//            
-//            let controller = segue.destination as! mainViewController
-//            resultNumFirst.text = controller.firstNumber.text
-//            resultNumSecond.text = controller.secondNumber.text
-//            resultCodedResult.text = controller.answerFromCode.text
-//        }
-//    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad();
-       
+        self.resultNumFirst.text = dataManager.firstNumberText;
+        self.resultNumSecond.text = dataManager.secondNumberText;
+        self.resultCodedResult.text = dataManager.codedNumberText;
     
     
         }

@@ -51,17 +51,16 @@ class mainViewController : UIViewController
             let storyboard: UIStoryboard = UIStoryboard(name:"Main", bundle: nil)
             
             let wellDoneViewController = storyboard.instantiateViewController(withIdentifier: "wellDoneView")
-            self.present(wellDoneViewController, animated: true, completion: nil)
-            //self.shouldPerformSegue(withIdentifier: "crossOver", sender: self)
-            //self.performSegue(withIdentifier: "crossOver", sender: self)
+            self.present(wellDoneViewController, animated: true, completion: nil) // moving the view to the destination
         }
         else
         {
+            //this animation will pop the label up then within the duration set it back to invisible
             UIView.animate(withDuration: 4.0, delay: 0.0, options: .curveEaseInOut, animations: ({
                 self.tryAgainLabel.alpha = 1;
                 self.tryAgainLabel.alpha = 0;
                 
-            }), completion: nil)//{finished in if(finished){ self.checkAnswers();}})
+            }), completion: nil)
             
         }
     }
@@ -79,12 +78,11 @@ class mainViewController : UIViewController
     
     override func viewDidLoad()
     {
-        //addition of
         randomiseNumber();
         calculateRandomNumbers();
-        var globalFirst = firstNumber.text;//testing globals to see if they work
-        var globalSecond = secondNumber.text;
-        var GlobalAnswer = answerFromCode.text;
+        dataManager.firstNumberText = self.firstNumber.text!;
+        dataManager.secondNumberText = self.secondNumber.text!;
+        dataManager.codedNumberText = self.answerFromCode.text!;
         self.tryAgainLabel.alpha = 0
     }
     

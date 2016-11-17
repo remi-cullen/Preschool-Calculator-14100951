@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		924959851DD7AEFB00851A52 /* RotatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924959841DD7AEFB00851A52 /* RotatedImage.swift */; };
 		924959871DDC8D9600851A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924959861DDC8D9600851A52 /* Main.storyboard */; };
+		924959891DDDE4D700851A52 /* dataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924959881DDDE4D600851A52 /* dataManager.swift */; };
+		9249598B1DDDF3DA00851A52 /* Action-button-cancel.ico in Resources */ = {isa = PBXBuildFile; fileRef = 9249598A1DDDF3DA00851A52 /* Action-button-cancel.ico */; };
 		9249DD7E1DB8EBA1002EC6FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DD7D1DB8EBA1002EC6FD /* AppDelegate.swift */; };
 		9249DD801DB8EBA1002EC6FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249DD7F1DB8EBA1002EC6FD /* ViewController.swift */; };
 		9249DD851DB8EBA2002EC6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9249DD841DB8EBA2002EC6FD /* Assets.xcassets */; };
@@ -59,6 +61,8 @@
 /* Begin PBXFileReference section */
 		924959841DD7AEFB00851A52 /* RotatedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedImage.swift; sourceTree = "<group>"; };
 		924959861DDC8D9600851A52 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		924959881DDDE4D600851A52 /* dataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataManager.swift; sourceTree = "<group>"; };
+		9249598A1DDDF3DA00851A52 /* Action-button-cancel.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Action-button-cancel.ico"; sourceTree = "<group>"; };
 		9249DD7A1DB8EBA1002EC6FD /* Preschool Calculator: 14100951.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preschool Calculator: 14100951.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9249DD7D1DB8EBA1002EC6FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9249DD7F1DB8EBA1002EC6FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +154,7 @@
 				9249DDAB1DB97312002EC6FD /* mainViewController.swift */,
 				9249DE3B1DC4D777002EC6FD /* wellDoneViewControl.swift */,
 				924959861DDC8D9600851A52 /* Main.storyboard */,
+				924959881DDDE4D600851A52 /* dataManager.swift */,
 				9249DD841DB8EBA2002EC6FD /* Assets.xcassets */,
 				9249DD861DB8EBA2002EC6FD /* LaunchScreen.storyboard */,
 				9249DD891DB8EBA2002EC6FD /* Info.plist */,
@@ -180,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				9249DDB41DBE1F50002EC6FD /* apple.png */,
+				9249598A1DDDF3DA00851A52 /* Action-button-cancel.ico */,
 				9249DDB51DBE1F51002EC6FD /* number0.png */,
 				9249DDB61DBE1F51002EC6FD /* number1.png */,
 				9249DDB71DBE1F51002EC6FD /* number2.png */,
@@ -321,6 +327,7 @@
 				9249DDC61DBE1F51002EC6FD /* number1.png in Resources */,
 				9249DDB11DB97892002EC6FD /* calculateHomepageImage.png in Resources */,
 				9249DDC71DBE1F51002EC6FD /* number2.png in Resources */,
+				9249598B1DDDF3DA00851A52 /* Action-button-cancel.ico in Resources */,
 				9249DDD21DBE1F51002EC6FD /* star_kids.png in Resources */,
 				924959871DDC8D9600851A52 /* Main.storyboard in Resources */,
 				9249DE3A1DC4AF6A002EC6FD /* playbutton.png in Resources */,
@@ -368,6 +375,7 @@
 				9249DE151DC396DA002EC6FD /* DraggableImage.swift in Sources */,
 				9249DE3C1DC4D777002EC6FD /* wellDoneViewControl.swift in Sources */,
 				9249DDAC1DB97312002EC6FD /* mainViewController.swift in Sources */,
+				924959891DDDE4D700851A52 /* dataManager.swift in Sources */,
 				924959851DD7AEFB00851A52 /* RotatedImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

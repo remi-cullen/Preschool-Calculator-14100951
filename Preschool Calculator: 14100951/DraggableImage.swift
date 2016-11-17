@@ -10,6 +10,9 @@ import UIKit
 
 class DraggableImage: UIImageView {
     
+    /*
+     This class is a genric class used to drag images , with constraints equal to the above sub view 
+     */
     var startLocation: CGPoint?
     
     //var stp: CGPoint?
@@ -40,27 +43,23 @@ class DraggableImage: UIImageView {
         newCentre.x = max(halfx, newCentre.x)
         newCentre.x = min((self.superview?.bounds.size.width)! - halfx, newCentre.x)//
         let halfy = self.bounds.midY
-        print(newCentre)
+        //print(newCentre)
         newCentre.y = max(halfy, newCentre.y)
-        //newCentre.y = min((self.superview?.bounds.size.width)! + halfy, newCentre.y)
         newCentre.y = min(((self.superview?.frame.size.height)! - self.frame.size.height),newCentre.y)
-        print(newCentre)
+        //print(newCentre)
         self.center = newCentre
         let boundsMaxX = self.bounds.maxX;
         let boundsMinX = self.bounds.minX;
         
         let boundsMaxY = self.bounds.maxY;
         let boundsMinY = self.bounds.minY;
+        //debug
         
         print("BoundsMaxX: ", boundsMaxX);
         print("BoundsMinX: ",boundsMinX);
         print("BoundsMaxY", boundsMaxY);
         print("BoundsMinY", boundsMinY);
-        
-        
-        // if (newCentre.y > 30.0){
-        //  newCentre.y = 30.0;
-        //}
+
         
         print(newCentre)
     }

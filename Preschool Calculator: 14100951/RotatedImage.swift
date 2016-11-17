@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//extension of view class, similar to draggable image
+//extension of view class, similar to draggable image the rotation will occur on any object named , we will use a basica animation to turn the UIImages around to the predetmined value , 
 extension UIView {
     func rotate360(duration: CFTimeInterval = 3.0, completionDelegate: AnyObject? = nil) {
         let rotateAnimation = CABasicAnimation(keyPath: "transform.rotation") //animation path
